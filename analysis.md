@@ -55,6 +55,6 @@ En esta parte, utilizaré el sitio web ANY.RUN para averiguar qué tácticas, t�
 | 2fd03624e271ec70349ce56fb30f563b | 4 tácticas, 5 técnicas y 16 eventos | Execution, Persistence, Privilege Escalation, Discovery | "Boot or Logon Autostart Execution" |
 | c419df63e0121d72411285780c2fc6cc | 1 tácticas, 2 técnicas y 2 eventos | Discovery | **No encontrado** |
 | 3acf52e5a62d50bdcedcb89174bf5492 | **No encontrado** | **No encontrado** | **No encontrado** |
-| 766b774626947000e67e0b318f558e94 | **gh2st.exe** | **gh2st.exe** | REDLINE has been detected (YARA) |
+| 766b774626947000e67e0b318f558e94 | 3 tácticas, 5 técnicas y 56 eventos | Execution, Defense Evasion, Discovery | **No encontrado** |
 | 422a6ca28a7e4d8e5e498523c6f049f4 | **No encontrado** | **No encontrado** | **No encontrado** |
 | b497845beb135740e6caed03a2020036 | **No encontrado** | **No encontrado** | **No encontrado** |
