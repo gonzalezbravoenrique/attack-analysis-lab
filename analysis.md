@@ -58,3 +58,25 @@ En esta parte, utilizaré el sitio web ANY.RUN para averiguar qué tácticas, t�
 | 766b774626947000e67e0b318f558e94 | 3 tácticas, 5 técnicas y 56 eventos | Execution, Defense Evasion, Discovery | **No encontrado** |
 | 422a6ca28a7e4d8e5e498523c6f049f4 | **No encontrado** | **No encontrado** | **No encontrado** |
 | b497845beb135740e6caed03a2020036 | **No encontrado** | **No encontrado** | **No encontrado** |
+
+# 6. Investigar la actividad más maliciosa
+En esta parte, utilizaré el sitio web ANY.RUN para investigar la 2ª actividad maliciosa detectada en el punto 1 (766b774626947000e67e0b318f558e94).  
+¿Cuál es el nombre en el árbol de procesos utilizado en esta actividad?  
+gh2st.exe  
+
+¿Cuál es el valor SHA256 asociado a esta actividad?  
+88DD2037D0C43ABACEBAD866DF3F8CCD2EE7D64B01405AA6756A3A1C2FAC28FA  
+
+¿Cuáles son los peligros identificados?  
+RedLine Stealer is a malicious program that collects users’ confidential data from browsers, systems, and installed software. It also infects operating systems with other malware.  
+
+¿Cuántas tácticas, técnicas y eventos hay relacionados con esta actividad maliciosa?  
+3 tácticas, 5 técnicas y 56 eventos  
+
+¿Cuáles son las tácticas utilizadas por los agentes de la amenaza?  
+Execution, Defense Evasion, Discovery  
+
+¿Qué técnicas se identifican como peligrosas?
+No encontrado
+
+	
