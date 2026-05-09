@@ -36,13 +36,13 @@ En esta parte, utilizaré el sitio web ANY.RUN para obtener el valor SHA256 de c
 
 
 # 4. Investigar el gráfico de procesos de actividad maliciosa
-En esta parte, utilizaré el sitio web ANY.RUN para obtener el valor SHA256 de cada hash. 
+En esta parte, utilizaré el sitio web ANY.RUN para averiguar qué proceso se ejecutó primero y qué proceso es el más peligroso. 
 
-| MD5 Hash | SHA256 | 
-|---|---|
-| 2fd03624e271ec70349ce56fb30f563b | **9c83a89ea0e56d5af9aa37d2dabed20b2412db8c9694a13128ea173a73557487** |
-| c419df63e0121d72411285780c2fc6cc | **f47f854d327c589d174d3bb5b55d5c05f5aca73df52a6bef47596b9010190291** |
-| 3acf52e5a62d50bdcedcb89174bf5492 | **No encontrado** | 
-| 766b774626947000e67e0b318f558e94 | **88dd2037d0c43abacebad866df3f8ccd2ee7d64b01405aa6756a3a1c2fac28fa** | 
-| 422a6ca28a7e4d8e5e498523c6f049f4 | **No encontrado** | 
-| b497845beb135740e6caed03a2020036 | **No encontrado** | 
+| MD5 Hash | Primer Proceso | Proceso Crítico | Peligro | 
+|---|---|---|---|
+| 2fd03624e271ec70349ce56fb30f563b | **wireframe.exe** | NvidiaGPU.exe | ASYNCRAT has been detected (YARA) |
+| c419df63e0121d72411285780c2fc6cc | **Updreg.EXE.exe** | **No encontrado** | **No encontrado** |
+| 3acf52e5a62d50bdcedcb89174bf5492 | **No encontrado** | **No encontrado** | **No encontrado** |
+| 766b774626947000e67e0b318f558e94 | **gh2st.exe** | **gh2st.exe** | REDLINE has been detected (YARA) |
+| 422a6ca28a7e4d8e5e498523c6f049f4 | **No encontrado** | **No encontrado** | **No encontrado** |
+| b497845beb135740e6caed03a2020036 | **No encontrado** | **No encontrado** | **No encontrado** |
